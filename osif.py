@@ -486,7 +486,7 @@ def menu_reaction_ask():
   try:
 	global type
 
-	cek = raw_input(R + 'D3b2y' + W + '/' + R + 'Bot' + W + '/' + R + 'Reaction' + W + ' >> ')
+	cek = raw_input(R + 'Dunsky' + W + '/' + R + 'Bot' + W + '/' + R + 'Reaction' + W + ' >> ')
 
 	if cek in ['1','01']:
 		type = 'LIKE'
@@ -568,7 +568,7 @@ def bot():
   try:
 	global type , message , id , WT , token
 
-	cek = raw_input(R + 'D3b2y' + W +'/' + R +'Bot ' + W + '>> ')
+	cek = raw_input(R + 'Dunsky' + W +'/' + R +'Bot ' + W + '>> ')
 
 	if cek in ['1','01']:
 		menu_reaction()
@@ -921,7 +921,7 @@ def main():
   global target_id
 
   try:
-	cek = raw_input(R + 'D3b2y' + W +' >> ')
+	cek = raw_input(R + 'Dunsky' + W +' >> ')
 
 	if cek.lower() == 'get_data':
 		if len(jml) == 0:
